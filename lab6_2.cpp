@@ -31,7 +31,7 @@ double findYComponent(double l1,double l2,double a1,double a2){
 
 double pythagoras(double xcomp, double ycomp) {
     double result_vec_length = sqrt(pow(xcomp,2)+pow(ycomp,2));
-    return result_vec_length;
+    return result_vec_length ;
 }
 
 void showResult(double result_vec_length,double result_vec_direction){
